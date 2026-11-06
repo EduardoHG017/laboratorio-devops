@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def inicio():
     return jsonify({
-        "mensaje": "Virtualizacion URL"
+        "mensaje": "Aplicacion modificada"
     })
 
 
